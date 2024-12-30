@@ -1,0 +1,26 @@
+name: book_a_ride
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: 2.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+
+flutter_native_splash:
+  # color: "#000000"
+  background_image: assets/car2.png
+  image: assets/car2.png
+
+flutter:
+  uses-material-design: true
