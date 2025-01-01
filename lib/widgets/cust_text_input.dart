@@ -29,8 +29,8 @@ class _CustTextInputState extends State<CustTextInput> {
   Widget build(BuildContext context) {
     return Container(
         padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
-        width: MediaQuery.of(context).size.width * 0.45,
-        height: MediaQuery.of(context).size.width * 0.2,
+        width: MediaQuery.of(context).size.width * 0.94,
+        height: MediaQuery.of(context).size.width * 0.15,
         decoration: BoxDecoration(
             color: inputBgColor,
             borderRadius: const BorderRadius.all(Radius.circular(20))),

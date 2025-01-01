@@ -1,5 +1,6 @@
 import 'package:book_a_ride/constants/styles.dart';
 import 'package:book_a_ride/screens/login2.dart';
+import 'package:book_a_ride/screens/new_login.dart';
 import 'package:book_a_ride/widgets/cust_button.dart';
 import 'package:flutter/material.dart';
 
@@ -32,23 +33,23 @@ class _LoginState extends State<Login> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     
-                    CustButton(
-                      innerText: "Log in with phone number",
-                      pageToNav: (context) => Login2(logMode: "phone"),
-                      wid: MediaQuery.of(context).size.width * 0.94,
-                      heig: MediaQuery.of(context).size.width * 0.15,
-                      insideIcon: Icon(
-                        Icons.phone,
-                        color: Colors.green,
-                        size: MediaQuery.of(context).size.width / 16,
-                      ),
-                    ),
+                    // CustButton(
+                    //   innerText: "Log in with phone number",
+                    //   pageToNav: (context) => Login2(logMode: "phone"),
+                    //   wid: MediaQuery.of(context).size.width * 0.94,
+                    //   heig: MediaQuery.of(context).size.width * 0.15,
+                    //   insideIcon: Icon(
+                    //     Icons.phone,
+                    //     color: Colors.green,
+                    //     size: MediaQuery.of(context).size.width / 16,
+                    //   ),
+                    // ),
                     SizedBox(
                       height: 20,
                     ),
                     CustButton(
-                      innerText: "Use email or username",
-                      pageToNav: (context) => Login2(logMode: "email"),
+                      innerText: "Log in with email",
+                      pageToNav: (context) => NewLogin(),
                       wid: MediaQuery.of(context).size.width * 0.94,
                       heig: MediaQuery.of(context).size.width * 0.15,
                       insideIcon: Icon(

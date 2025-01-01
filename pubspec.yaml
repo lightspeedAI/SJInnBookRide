@@ -7,14 +7,21 @@ environment:
   sdk: ^3.5.1
 
 dependencies:
+  cloud_firestore: ^5.6.0
+  firebase_auth: ^5.3.4
+  firebase_core: ^3.9.0
+  firebase_database: ^11.2.0
   flutter:
     sdk: flutter
   flutter_native_splash: 2.4.4
+  fluttertoast: ^8.2.10
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
   
 
 flutter_native_splash:
