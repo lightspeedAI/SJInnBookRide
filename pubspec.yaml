@@ -11,12 +11,14 @@ dependencies:
   firebase_auth: ^5.3.4
   firebase_core: ^3.9.0
   firebase_database: ^11.2.0
+  firebase_messaging: ^15.1.6
   flutter:
     sdk: flutter
   flutter_native_splash: 2.4.4
   fluttertoast: ^8.2.10
   cached_network_image: ^3.4.1
   carousel_slider: ^5.0.0
+  url_launcher: ^6.3.1
 
 dev_dependencies:
   flutter_test:
@@ -24,10 +26,10 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   
 
-flutter_native_splash:
-  # color: "#000000"
-  background_image: assets/car2.png
-  image: assets/car2.png
+# flutter_native_splash:
+#   # color: "#000000"
+#   background_image: assets/car2.png
+#   image: assets/car2.png
 
 flutter:
   uses-material-design: true

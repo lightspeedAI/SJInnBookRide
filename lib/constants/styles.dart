@@ -14,7 +14,7 @@ Color inputHintColor = Colors.grey;
 Color inputBorderColor = Colors.green[500]!;
 
 TextStyle buttonFont = TextStyle(fontSize: buttonFontSize, color: buttonFontColor);
-Color buttonBgColor = Colors.white;
+Color buttonBgColor = Colors.blue;
 Color buttonBorderColor = Colors.green[900]!;
 Color buttonFontColor = Colors.black;
 double buttonFontSize= 22;
