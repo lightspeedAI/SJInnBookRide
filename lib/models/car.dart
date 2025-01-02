@@ -5,6 +5,7 @@ class Car {
   String image1;
   String image2;
   String image3;
+  String mobno;
   
 
   Car({
@@ -14,6 +15,7 @@ class Car {
     required this.image1,
     required this.image2,
     required this.image3,
+    required this.mobno,
     });
 
   Car.fromJson(Map<String, Object?> json)
@@ -24,6 +26,7 @@ class Car {
           image1: json['image1']! as String,
           image2: json['image2']! as String,
           image3: json['image3']! as String,
+          mobno: json['mobno']! as String,
         );
 
   Car copyWith({
@@ -33,6 +36,7 @@ class Car {
     String? image1,
     String? image2,
     String? image3,
+    String? mobno,
   }) {
     return Car(
         name: name ?? this.name,
@@ -40,7 +44,8 @@ class Car {
         available: available ?? this.available,
         image1: image1 ?? this.image1,
         image2: image2 ?? this.image2,
-        image3: image3 ?? this.image3
+        image3: image3 ?? this.image3,
+        mobno: mobno ?? this.mobno
         );
   }
 
@@ -52,6 +57,7 @@ class Car {
       'image1': image1,
       'image2': image2,
       'image3': image3,
+      'mobno': mobno,
     };
   }
 }

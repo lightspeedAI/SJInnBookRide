@@ -10,8 +10,8 @@ class NetImage extends StatelessWidget {
     return CachedNetworkImage(
       imageUrl: imgUrl,
       imageBuilder: (context, imageProvider) => Container(
-        width: MediaQuery.sizeOf(context).width,
-        height: MediaQuery.sizeOf(context).height * 0.2,
+        width: MediaQuery.sizeOf(context).width*0.88,
+        height: MediaQuery.sizeOf(context).height * 0.27,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           image: DecorationImage(
